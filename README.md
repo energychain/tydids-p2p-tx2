@@ -20,7 +20,7 @@ Imagine a dataset that is available somewhere in the world might be accessed eve
 ### Quick Intro
 Will expose fields/values of a DID presentation as metrics in pm2.
 
-Quick Install:
+Quick Walk Through:
 ```
 npm install -g tydids-p2p-tx2
 pm2 start tydids-tx2 -- -p 0xA22bcEb9BCcEbcDd207eb24F4139abfc6a97EeB3
