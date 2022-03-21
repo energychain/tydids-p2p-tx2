@@ -1,0 +1,36 @@
+{
+  "name": "tydids-p2p-tx2",
+  "version": "0.5.1",
+  "description": "TyDIDs extension for the tx2 package of PM2.io",
+  "main": "lib.js",
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "bin": {
+    "tydids-tx2": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/energychain/tydids-p2p-tx2.git"
+  },
+  "keywords": [
+    "tydids",
+    "pm2",
+    "tx2",
+    "microservice",
+    "did",
+    "ssi",
+    "p2p"
+  ],
+  "author": "STROMDAO GmbH <dev@stromdao.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/energychain/tydids-p2p-tx2/issues"
+  },
+  "homepage": "https://github.com/energychain/tydids-p2p-tx2#readme",
+  "dependencies": {
+    "commander": "^9.1.0",
+    "tx2": "^1.0.5",
+    "tydids-p2p": "^1.2.2"
+  }
+}
